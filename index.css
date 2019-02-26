@@ -4,6 +4,12 @@ body {
   padding: 0;
   background-color: black;
   font-family: 'Nanum Gothic Coding', monospace;
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
 }
 
 .star {
@@ -11,6 +17,10 @@ body {
   width: 1px;
   height: 1px;
   background-color: white;
+}
+
+.search {
+  margin: 20px 0;
 }
 
 .table-data-of-starwars {
@@ -22,19 +32,18 @@ table {
   border-collapse: collapse;
   width: 100%;
   table-layout: fixed;
-  background-color: #ddd;
+  background-color: #000;
 }
 
 td,
 th {
   border: 1px solid #fdfa53;
-  text-align: left;
+  text-align: center;
   padding: 8px;
-  width: 240px;
 }
 
 tr:nth-child(even) {
-  background-color: #ddd;
+  background-color: #41413d;
 }
 
 #loader {
@@ -86,4 +95,13 @@ tr:nth-child(even) {
   display: none;
   text-align: center;
   color: #fff;
+  height: 100vh;
+}
+
+footer{
+  margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  color: #fdfa53;
+  width: 100%;
 }
