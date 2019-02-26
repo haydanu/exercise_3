@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.table-data-of-starwars {
+  width: 75%;
+  margin: 0 auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #e26b6b;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ddd;
+}
